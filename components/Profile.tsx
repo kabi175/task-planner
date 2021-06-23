@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import React, { useState } from 'react';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
 const Profile: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const Profile: React.FC = () => {
       <View style={styles.profile}>
         <Image
           source={{
-            uri: "https://avatars.githubusercontent.com/u/67632223?v=4",
+            uri: 'https://avatars.githubusercontent.com/u/67632223?v=4',
           }}
           style={styles.image}
         />
@@ -22,24 +22,24 @@ const Profile: React.FC = () => {
 
 const styles = StyleSheet.create({
   contanier: {
-    flex: 1,
-    backgroundColor: "#f5ba7a",
-    width: "100%",
-    maxHeight: 170,
+    backgroundColor: '#f5ba7a',
+    width: '100%',
+    height: 170,
     borderBottomEndRadius: 50,
     borderBottomStartRadius: 50,
-    flexDirection: "row",
-    flexWrap: "nowrap",
-    alignItems: "center",
-    justifyContent: "center",
+    flexDirection: 'row',
+    flexWrap: 'nowrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexShrink: 0,
   },
   profile: {
     height: 100,
     width: 100,
     borderRadius: 50,
-    backgroundColor: "#add8e6",
-    alignItems: "center",
-    justifyContent: "center",
+    backgroundColor: '#add8e6',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   image: {
     height: 100,
@@ -48,11 +48,11 @@ const styles = StyleSheet.create({
   },
   about: {
     padding: 20,
-    justifyContent: "center",
+    justifyContent: 'center',
   },
   name: {
     fontSize: 30,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
   title: {
     fontSize: 20,

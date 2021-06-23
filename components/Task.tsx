@@ -1,6 +1,6 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import { Icon } from "react-native-elements";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import { Icon } from 'react-native-elements';
 
 interface props {
   task: string;
@@ -27,16 +27,16 @@ const Task: React.FC<props> = ({ icon, task, status }) => {
 const styles = StyleSheet.create({
   contanier: {
     flex: 1,
-    flexDirection: "row",
-    flexWrap: "nowrap",
-    alignItems: "center",
+    flexDirection: 'row',
+    flexWrap: 'nowrap',
+    alignItems: 'center',
   },
   title: {
-    fontWeight: "bold",
+    fontWeight: 'bold',
     fontSize: 18,
   },
   status: {
-    fontWeight: "100",
+    fontWeight: '100',
   },
 });
 
